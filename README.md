@@ -1,5 +1,7 @@
 [![cw_banner](https://github.com/curiouswalk/manim/assets/157306209/a20ef04c-9e8c-422f-97a7-27f78599dcd8)](https://www.curiouswalk.com)
 
+<img src="https://github.com/curiouswalk/manim/assets/157306209/a20ef04c-9e8c-422f-97a7-27f78599dcd8" alt="alt text" width="100%" />
+
 # [Manim Animation](source)
 
 **[Manim](https://www.manim.community/) is an animation engine for creating precise programmatic animations.**
