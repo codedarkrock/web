@@ -15,7 +15,7 @@ Here are some animation scenes rendered from scripts written in Python using the
 
 ## [Fibonacci Spiral](source/fibonacci_spiral)
 
-https://github.com/curiouswalk/manim/assets/157306209/5344fc22-f79c-4cd8-9e54-bab2b31bf095
+[![fibonacci_spiral](https://github.com/curiouswalk/manim/assets/157306209/5344fc22-f79c-4cd8-9e54-bab2b31bf095)](https://github.com/curiouswalk/manim/tree/main/source/fibonacci_spiral)
 
 <p><a href="https://github.com/curiouswalk/manim/tree/main/source/fibonacci_spiral">
             <img src="https://img.shields.io/badge/Source-link?style=plastic&logo=github&logoColor=white&labelColor=grey&color=green" height="23"
