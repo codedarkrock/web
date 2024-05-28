@@ -2,3 +2,19 @@ remote_theme: pages-themes/cayman@v0.2.0
 title: Test
 description: des
 logo_url: https://github.com/codedarkrock/web.github.io/blob/main/cw.png
+
+colors:
+    gradient_left: "#991557"
+    gradient_right: "#159957"
+    header: "#fff"
+    android_theme: "#000" # this default to gradient_color
+    link: "#1e6bb8" # this default to gradient_color
+    section_title: "#155799" # this default to gradient_color
+buttons:
+      zip_url: http://example.com/
+      zip_title: Title
+      zip_hide: true
+      tar_url: http://example.com/
+      tar_title: Title
+      tar_hide: true
+      github_hide: true # hides "View on Github"
