@@ -3,12 +3,3 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: CuriousWalk
 description: Manim Animation
-logo_url: https://github.com/codedarkrock/web.github.io/blob/main/cw.png
-
-colors:
-    gradient_left: "#991557"
-    gradient_right: "#159957"
-    header: "#fff"
-    android_theme: "#000" # this default to gradient_color
-    link: "#1e6bb8" # this default to gradient_color
-    section_title: "#155799" # this default to gradient_color
