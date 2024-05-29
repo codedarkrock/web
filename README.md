@@ -11,6 +11,9 @@
 
 Here are some animation scenes rendered from scripts written in Python using the Manim library.
 
+[![cw_banner](https://github.com/curiouswalk/manim/assets/157306209/a20ef04c-9e8c-422f-97a7-27f78599dcd8)](https://www.curiouswalk.com)
+
+
 ## [Fibonacci Spiral](source/fibonacci_spiral)
 
 <video width="100%" height="auto" controls>
