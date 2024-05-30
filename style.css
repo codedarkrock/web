@@ -15,7 +15,7 @@ body {
 }
 .sample-header::before {
   content: "";
-  position: absolute;
+  position: relative;
 }
 .sample-header-section {
   position: relative;
