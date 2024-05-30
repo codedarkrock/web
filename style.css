@@ -15,14 +15,15 @@ body {
   background-repeat: no-repeat;
 }
 .sample-header::before {
-  content: "";
+  content: "the";
   position: absolute;
-  top: 0;
+/*   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
+  width: 100%;
   background-color: MidnightBlue;
-  opacity: 0.3;
+/*   opacity: 0.3; */
 }
 .sample-header-section {
   position: relative;
