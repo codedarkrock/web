@@ -11,7 +11,6 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 1.0;
 }
 .sample-header::before {
   content: "";
