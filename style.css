@@ -6,6 +6,8 @@ body {
 }
 .sample-header {
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
   background-image: url("cw_yt_banner.png");
   background-position: center;
