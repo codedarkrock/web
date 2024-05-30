@@ -6,6 +6,8 @@ body {
 }
 .sample-header {
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
   background-image: url("cw_yt_banner.png");
   background-position: center;
@@ -20,7 +22,7 @@ body {
   bottom: 0;
   left: 0;
   background-color: MidnightBlue;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 .sample-header-section {
