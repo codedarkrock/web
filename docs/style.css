@@ -143,6 +143,6 @@ img.youtube {
 .footer 
 {    
  overflow: hidden; 
-   position: absolute;  
+   position: flex;  
   margin: 30px auto;
 }
