@@ -73,7 +73,7 @@ firstSection();
 function footerSection() {
   const year = new Date().getFullYear()
     document.getElementById('footer-section').innerHTML = `
- <footer>
+ <footer style="min-height: 1px;">
   <p style="color: slategray; text-align: center; margin-top: 30px; margin-bottom: 0;">
     Copyright &copy; ${year} <a href="https://www.curiouswalk.com">CuriousWalk</a>
   </p>
