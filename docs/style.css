@@ -51,11 +51,11 @@ h2 {
 }
 
 .new-section {
-    position: relative;
-    display: inline-block;
-    background-color: ghostwhite;
-    margin: 20px auto;
-    padding: 30px;
+/*     position: relative; */
+/*     display: inline-block; */
+/*     background-color: ghostwhite; */
+/*     margin: 20px auto; */
+/*     padding: 30px; */
 }
 
 .button1 {
