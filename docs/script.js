@@ -58,8 +58,12 @@ function firstSection() {
 
     <p>The animation scenes are rendered from Python scripts using Manim in Jupyter Notebook on Google Colab.</p>
 
-    <a href="https://colab.curiouswalk.com/manim"><img src="https://img.shields.io/badge/Manim_in_Colab-link?style=flat&logo=googlecolab&labelColor=grey&color=blue" style="float:left;"></a>
-   <a href="https://colab.curiouswalk.com/manim">&nbsp;colab.curiouswalk.com/manim</a>
+    <a href="https://colab.curiouswalk.com/manim">
+        <div style="display: flex; align-items: top;">
+            <img src="https://img.shields.io/badge/Manim_in_Colab-link?style=flat&logo=googlecolab&labelColor=grey&color=blue">&nbsp;colab.curiouswalk.com/manim
+        </div>
+    </a>
+
 </div>
 `;
 }
@@ -70,7 +74,7 @@ function footerSection() {
   const year = new Date().getFullYear()
     document.getElementById('footer-section').innerHTML = `
  <footer>
-  <p style="color: slategray; text-align: center;">
+  <p style="color: slategray; text-align: center; margin: 30px auto;">
     Copyright &copy; ${year} <a href="https://www.curiouswalk.com">CuriousWalk</a>
   </p>
 </footer>
