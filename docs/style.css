@@ -5,9 +5,9 @@ body {
 }
 
 .banner {
-    position: fixed;
-    top: 0;
-    bottom: 0;
+    position: relative;
+/*    top: 0;
+    bottom: 0;*/
     height: auto;
     width: 100%;
     background-color: black;
@@ -20,9 +20,9 @@ body {
 
 .banner-section {
     position: relative;
+    display: block;
     padding: 75px;
-
-    max-width: 960px;
+    max-width: 1080px;
     margin: auto;
     color: white;
     font-family: "Verdana";
@@ -45,17 +45,17 @@ h2 {
 .body-section {
     position: relative;
     background-color: white;
-    max-width: 960px;
+    max-width: 1080px;
     margin: auto;
     padding: 25px 45px;
 }
 
 .new-section {
-/*     position: relative; */
-/*     display: inline-block; */
-/*     background-color: ghostwhite; */
-/*     margin: 20px auto; */
-/*     padding: 30px; */
+    position: relative;
+    display: inline-block;
+    background-color: ghostwhite;
+    margin: 20px auto;
+    padding: 30px;
 }
 
 .button1 {
@@ -138,11 +138,4 @@ img.colab {
 img.youtube {
     content: url("https://img.shields.io/badge/YouTube-link?style=plastic&logo=youtube&logoColor=red&labelColor=grey&color=red");
     height: 24px;
-}
-
-.footer 
-{    
- overflow: hidden; 
-   position: relative;  
-  margin: 30px auto;
 }
