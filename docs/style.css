@@ -94,7 +94,7 @@ body {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
     .button1{
         font-size: 2.5em;
 
@@ -106,5 +106,38 @@ body {
     h1{
       font-size: 1.5em;
     }
-
 }
+
+
+
+a {
+    text-decoration: none;
+}
+
+video {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+img {
+    pointer-events: none;
+}
+
+img.github {
+    content: url("https://img.shields.io/badge/Source-link?style=plastic&logo=github&logoColor=white&labelColor=grey&color=green");
+    height: 24px;
+    margin-right: 12px;
+}
+
+img.colab {
+    content: url("https://img.shields.io/badge/Colab-link?style=plastic&logo=googlecolab&labelColor=grey&color=blue");
+    height: 24px;
+    margin-right: 12px;
+}
+
+img.youtube {
+    content: url("https://img.shields.io/badge/YouTube-link?style=plastic&logo=youtube&logoColor=red&labelColor=grey&color=red");
+    height: 24px;
+}
+
