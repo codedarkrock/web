@@ -7,7 +7,7 @@ body {
 
 .banner {
     position: relative;
-    display: inline-block;
+/*    display: inline-block;*/
     /*top: 0;
     bottom: 0;*/
     height: auto;
@@ -87,7 +87,7 @@ top: 0;
     border: none;
     cursor: pointer;
     text-decoration: none;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: "Arial";
     position: relative;
     color: White;
