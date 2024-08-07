@@ -7,7 +7,7 @@ body {
 
 .banner {
     position: relative;
-    display: flex;
+    display: inline-block;
     /*top: 0;
     bottom: 0;*/
     height: auto;
