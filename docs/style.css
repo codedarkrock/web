@@ -4,11 +4,13 @@ body {
     font-family: "Verdana";
 }
 
+
 .banner {
     position: relative;
-/*    top: 0;
-    bottom: 0;*/
+    top: 0;
+    bottom: 0;
     height: auto;
+    margin: auto;
     width: 100%;
     background-color: black;
     background-image: url("banner.jpg");
@@ -27,36 +29,51 @@ body {
     color: white;
     font-family: "Verdana";
 }
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+  height: auto;
+    margin:auto;
+top: 0;
+    bottom: 0;
+    background-position: center;
+/*    top: 0;
+    bottom: 0;*/
+    width: 100%;
 
-blockquote {
-    background: whitesmoke;
-    border-left: 4px solid slateblue;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
+/*    max-width: 1080px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  display: flex;
 }
 
-h2 {
-    font-size: 1.75em;
-    margin-top: 0;
-    font-family: "Arial";
-    color: #330033;
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-.body-section {
-    position: relative;
-    background-color: white;
-    max-width: 1080px;
-    margin: auto;
-    padding: 25px 45px;
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
 }
 
-.new-section {
-    position: relative;
-    display: inline-block;
-    background-color: ghostwhite;
-    margin: 20px auto;
-    padding: 30px;
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
 }
+
 
 .button1 {
     --animation-color: #07f2f1;
@@ -108,54 +125,3 @@ h2 {
     width: 100%;
 }
 
-
-a {
-    text-decoration: none;
-}
-
-video {
-    width: 50%;
-    float: left;
-    margin-right: 30px;
-}
-
-img {
-    pointer-events: none;
-}
-
-img.github {
-    content: url("https://img.shields.io/badge/Source-link?style=plastic&logo=github&logoColor=white&labelColor=grey&color=green");
-    height: 24px;
-    margin-right: 12px;
-}
-
-img.colab {
-    content: url("https://img.shields.io/badge/Colab-link?style=plastic&logo=googlecolab&labelColor=grey&color=blue");
-    height: 24px;
-    margin-right: 12px;
-}
-
-img.youtube {
-    content: url("https://img.shields.io/badge/YouTube-link?style=plastic&logo=youtube&logoColor=red&labelColor=grey&color=red");
-    height: 24px;
-}
-/* Responsive Design */
-@media (max-width: 768px) {
-    header.banner h1 {
-        font-size: 2.5rem;
-    }
-
-    header.banner p {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    header.banner h1 {
-        font-size: 1.8rem;
-    }
-
-    header.banner p {
-        font-size: 1rem;
-    }
-}
